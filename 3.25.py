@@ -1,0 +1,12 @@
+print("Sinh vien:Phan Anh Vu")
+print("Ma so SV : 245751030310014")
+print("###########################")
+###################################
+# Nhập danh sách các số, cách nhau bởi dấu phẩy
+ds = input("Nhập danh sách số (ngăn cách bằng dấu phẩy): ").split(',')
+
+# Chuyển sang kiểu int và lọc các số lẻ
+le = [int(x) for x in ds if int(x) % 2 != 0]
+
+# In kết quả
+print("Các số lẻ là:", le)
